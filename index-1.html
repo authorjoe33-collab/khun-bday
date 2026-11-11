@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#100923">
+<title>For Khun Bhai ✨</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  min-height:100vh;color:#fff;font-family:'DM Sans',sans-serif;
+  background:#09051b;overflow-x:hidden
+}
+body:before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:linear-gradient(180deg,rgba(8,4,25,.25),rgba(8,4,25,.72)),
+  url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1800") center/cover no-repeat
+}
+#stars{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.star{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;box-shadow:0 0 9px 2px #d9baff;animation:twinkle 3s infinite alternate}
+@keyframes twinkle{from{opacity:.2;transform:scale(.7)}to{opacity:1;transform:scale(1.6)}}
+.container{max-width:850px;margin:auto;padding:48px 17px 35px;text-align:center}
+.tag{display:inline-block;padding:8px 17px;border:1px solid #e9c9ff66;border-radius:30px;background:#ffffff12;color:#f1d9ff;font-size:11px;letter-spacing:2px;margin-bottom:19px}
+h1{font:700 clamp(34px,8vw,55px)/1.2 'Playfair Display',serif;color:#f5ddff;text-shadow:0 0 24px #d19aff}
+.subtitle{color:#e7d5f5;font-size:14px;line-height:1.9;margin:15px auto 35px}
+.divider{width:85px;height:1px;background:#d9b4ff;margin:28px auto;box-shadow:0 0 12px #d4a9ff}
+.section-title{font:600 24px 'Playfair Display',serif;color:#f4d8ff;margin-bottom:9px}
+.instruction{font-size:12px;color:#d8c3ec;margin-bottom:24px}
+.gift-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.gift{
+  min-height:155px;padding:20px 9px;border:1px solid #e4c8ff55;border-radius:22px;
+  background:linear-gradient(145deg,#ffffff20,#ffffff08);backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);cursor:pointer;transition:.25s;
+  box-shadow:0 8px 25px #00000025
+}
+.gift:hover{transform:translateY(-5px);border-color:#e9c4ff;box-shadow:0 0 25px #c28aff55}
+.gift:active{transform:scale(.96)}
+.gift-icon{display:block;font-size:53px;margin-bottom:12px;filter:drop-shadow(0 0 12px #e5b9ff)}
+.gift-name{font-weight:700;font-size:13px;color:#fff0ff}
+.gift-hint{font-size:10px;color:#d7c2ee;margin-top:7px}
+.footer{margin-top:38px;color:#e4c9ff;font:15px 'Playfair Display',serif;line-height:2}
+.modal{
+  display:none;position:fixed;inset:0;z-index:10;background:#050313e8;
+  backdrop-filter:blur(9px);justify-content:center;align-items:center;padding:16px
+}
+.modal.show{display:flex;animation:fade .25s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.modal-box{
+  width:100%;max-width:450px;max-height:86vh;overflow-y:auto;padding:25px 18px;
+  border:1px solid #e2baff;border-radius:24px;
+  background:linear-gradient(145deg,#30204c,#17102f);
+  box-shadow:0 0 35px #bd82ff66;animation:pop .3s ease
+}
+@keyframes pop{from{transform:scale(.88)}to{transform:scale(1)}}
+.modal-box h2{font:600 25px 'Playfair Display',serif;color:#f5d9ff;margin-bottom:17px}
+.modal-text{font-size:14px;line-height:1.9;color:#f8eaff;white-space:pre-line}
+.gift-image{display:block;width:100%;max-height:390px;object-fit:contain;border-radius:16px;margin:12px auto;background:#ffffff0d}
+.close-btn,.action-btn,.spotify-link{
+  display:inline-block;border:0;border-radius:30px;padding:12px 23px;margin-top:19px;
+  font-family:inherit;font-size:13px;font-weight:700;cursor:pointer;text-decoration:none
+}
+.close-btn,.spotify-link{background:linear-gradient(135deg,#f0c9ff,#c59bff);color:#28183d}
+.action-btn{border:1px solid #edcaff;background:#ffffff15;color:white}
+.letter{padding:19px 16px;background:linear-gradient(145deg,#fff0f7,#f0e4ff);color:#513653;border-radius:17px;text-align:left}
+.letter-heading{text-align:center;font:600 21px 'Playfair Display',serif;color:#8d4f91;margin-bottom:15px}
+.letter p{font-size:13px;line-height:1.95;white-space:pre-line}
+.coupon{border:1px dashed #e8bfff;border-radius:14px;padding:14px;margin:11px 0;color:#f5e4ff;background:#ffffff0b;font-size:13px}
+.scratch{border:1px dashed #f1caff;background:linear-gradient(135deg,#e5b8ff,#c5a1ff);color:#28183d;border-radius:16px;padding:35px 15px;font-weight:700;cursor:pointer;margin-top:12px;line-height:1.8}
+.small-note{font-size:11px;color:#d9c4ed;margin-top:12px}
+@media(max-width:380px){.container{padding:38px 12px}.gift-grid{gap:10px}.gift{min-height:140px;padding:17px 6px}.gift-icon{font-size:47px}.gift-name{font-size:12px}.modal-box{padding:21px 14px}}
+</style>
+</head>
+<body>
+<div id="stars"></div>
+
+<main class="container">
+  <div class="tag">A LITTLE UNIVERSE MADE FOR YOU</div>
+  <h1>Happy Birthday<br>Khun Bhai ✨</h1>
+  <p class="subtitle">
+    Somewhere between a million stars<br>
+    there's a little universe filled with gifts just for you.<br><br>
+    Every box has a little surprise waiting...
+  </p>
+  <div class="divider"></div>
+  <h2 class="section-title">Your Mystery Gifts</h2>
+  <p class="instruction">Pick a box and discover what's inside ♡</p>
+
+  <section class="gift-grid">
+    <button class="gift" onclick="openGift('letter')"><span class="gift-icon">💌</span><span class="gift-name">A Secret Letter</span><div class="gift-hint">Something from the heart</div></button>
+    <button class="gift" onclick="openGift('music')"><span class="gift-icon">🎀</span><span class="gift-name">Music Universe</span><div class="gift-hint">A playlist for you</div></button>
+    <button class="gift" onclick="openGift('coupons')"><span class="gift-icon">🎟️</span><span class="gift-name">Friendship Coupons</span><div class="gift-hint">Little promises</div></button>
+    <button class="gift" onclick="openGift('messages')"><span class="gift-icon">💝</span><span class="gift-name">Surprise Messages</span><div class="gift-hint">A few little reminders</div></button>
+    <button class="gift" onclick="openGift('scratch')"><span class="gift-icon">🎁</span><span class="gift-name">Birthday Scratch Card</span><div class="gift-hint">Tap to reveal</div></button>
+    <button class="gift" onclick="openGift('cake')"><span class="gift-icon">🎂</span><span class="gift-name">Birthday Cake</span><div class="gift-hint">Make a wish</div></button>
+    <button class="gift" onclick="openGift('flower')"><span class="gift-icon">💐</span><span class="gift-name">Flower Bouquet</span><div class="gift-hint">Flowers just for you</div></button>
+    <button class="gift" onclick="openGift('chocolate')"><span class="gift-icon">🍫</span><span class="gift-name">Chocolate Box</span><div class="gift-hint">A sweet surprise</div></button>
+    <button class="gift" onclick="openGift('starsGift')"><span class="gift-icon">🌟</span><span class="gift-name">A Box Full of Stars</span><div class="gift-hint">A little piece of the galaxy</div></button>
+    <button class="gift" onclick="openGift('secret')"><span class="gift-icon">🌌</span><span class="gift-name">Secret Galaxy</span><div class="gift-hint">One last surprise</div></button>
+  </section>
+
+  <div class="divider"></div>
+  <div class="footer">Made with lots of love for Khun Bhai<br>Some people are stars in their own universe ✨</div>
+</main>
+
+<div class="modal" id="modal" onclick="outsideClose(event)">
+  <div class="modal-box">
+    <h2 id="modalTitle"></h2>
+    <div id="modalContent"></div>
+    <button class="close-btn" onclick="closeGift()">Close this gift ♡</button>
+  </div>
+</div>
+
+<script>
+/* Twinkling background stars */
+const stars = document.getElementById('stars');
+for(let i=0;i<110;i++){
+  const s=document.createElement('span');
+  s.className='star';
+  s.style.left=Math.random()*100+'%';
+  s.style.top=Math.random()*100+'%';
+  s.style.animationDelay=Math.random()*4+'s';
+  s.style.animationDuration=(2+Math.random()*4)+'s';
+  stars.appendChild(s);
+}
+
+/* Birthday letter */
+const birthdayLetter = `Happiest birthday Khun bhai.... 🩷🎀
+
+Humara first interaction definitely wasn't that good.... I know I was a piece of shit back then and honestly mujhe khud kabhi nahi laga tha ki things would turn out this way.... But look at us now.... you guys have become like a home to me.... a place where I can be myself without thinking twice.... I kid you not maine kabhi nahi socha tha ki after everything tu mujhe maaf karega but you guys did and that genuinely means a lot to me.... I'm really glad ki we got past all that and got to know each other better.... Tu literally one of the sweetest people I've come across and I hope life gives you all the happiness you deserve.... I hope you achieve everything you've ever dreamed of and become successful in life.... Hamesha khush rehna bhai and never stop being the amazing person you are.... 🪷✨️
+
+Aur bhai bohot miss kar raha hu ek saath Ghost Town.... those days and all the random moments were something else.... Ab jaldi se comeback kar please.... waiting for that comeback so badly.... I really hope we get to experience all of that together again.... Lastly I'm honestly not that good with words but I hope you know how much you mean to me.... Love you bhai.... take care of yourself and enjoy your day to the fullest.... 🫂♥️
+
+Happiest birthday once again Khun bhai.... 🩷🎀`;
+
+/* Gift contents */
+const gifts = {
+  letter: {
+    title:'A Letter For You 💌',
+    html:`<div class="letter"><div class="letter-heading">To Khun Bhai ♡</div><p>${escapeHTML(birthdayLetter)}</p></div>`
+  },
+  music: {
+    title:'Your Music Universe 🎶',
+    html:`<p class="modal-text">Every birthday deserves its own soundtrack.... Here's a little space for all your favourite songs. Enjoy your music bhai!</p>
+    <a class="spotify-link" href="https://open.spotify.com/" target="_blank" rel="noopener">Open Spotify ♡</a>
+    <p class="small-note">You can replace this link with your own Spotify playlist link.</p>`
+  },
+  coupons: {
+    title:'Friendship Coupons 🎀',
+    html:`<div class="coupon">🎟️ One unlimited gossip session</div>
+    <div class="coupon">🎟️ One free rant session</div>
+    <div class="coupon">🎟️ Unlimited bakchodi</div>
+    <div class="coupon">🎟️ One emergency call anytime</div>
+    <div class="coupon">🎟️ Unlimited Bengali adda</div>
+    <p class="modal-text">No expiry date.... ever.</p>`
+  },
+  messages: {
+    title:'Little Reminders 💗',
+    html:`<p class="modal-text">You are appreciated more than you know....<br><br>You deserve good people and beautiful moments....<br><br>Never doubt your worth....<br><br>Keep smiling and keep being your chaotic self....<br><br>Someone is always rooting for you. 🫂</p>`
+  },
+  scratch: {
+    title:'A Little Surprise ✨',
+    html:`<div class="scratch" id="scratchArea" onclick="revealScratch()">TAP TO REVEAL<small>Your surprise is hiding here....</small></div>`
+  },
+  cake: {
+    title:'A Cake Just For You 🎂',
+    html:`<p class="modal-text">Make a wish Khun bhai.... Hope this year brings you everything you've been wishing for!</p>
+    <img class="gift-image" src="cake.jpg" alt="Birthday cake" onerror="imageError(this)">`
+  },
+  flower: {
+    title:'Flowers For You 💐',
+    html:`<p class="modal-text">A little bouquet for someone who deserves all the happiness in the world....</p>
+    <img class="gift-image" src="flower.jpg" alt="Flower bouquet" onerror="imageError(this)">`
+  },
+  chocolate: {
+    title:'Something Sweet 🍫',
+    html:`<p class="modal-text">A whole box of chocolates because one is never enough!</p>
+    <img class="gift-image" src="Chocolate.jpg" alt="Chocolate box" onerror="imageError(this)">`
+  },
+  starsGift: {
+    title:'A Box Full Of Stars 🌟',
+    html:`<p class="modal-text">If I could collect every star in the galaxy and put them in a box for you.... I would. Until then here's a little piece of the universe.</p>
+    <img class="gift-image" src="star.jpg" alt="A box full of stars" onerror="imageError(this)">`
+  },
+  secret: {
+    title:'You Found The Secret Galaxy 🌌',
+    html:`<p class="modal-text">Out of all the people in this huge universe I'm really glad our paths crossed....<br><br>Here's to more memories.... more laughter.... more Bengali adda.... and hopefully a Ghost Town comeback soon....<br><br>Love you bhai! 🩷</p>`
+  }
+};
+
+function escapeHTML(str){
+  return str.replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+function openGift(id){
+  const gift=gifts[id];
+  if(!gift)return;
+  document.getElementById('modalTitle').textContent=gift.title;
+  document.getElementById('modalContent').innerHTML=gift.html;
+  document.getElementById('modal').classList.add('show');
+  document.body.style.overflow='hidden';
+}
+
+function closeGift(){
+  document.getElementById('modal').classList.remove('show');
+  document.body.style.overflow='';
+}
+
+function outsideClose(event){
+  if(event.target.id==='modal')closeGift();
+}
+
+function revealScratch(){
+  const area=document.getElementById('scratchArea');
+  if(!area || area.dataset.opened)return;
+  area.dataset.opened='true';
+  area.innerHTML='SURPRISE! 🩷<br><br>You're one of my favourite humans....<br>Stay happy always!';
+  area.style.cursor='default';
+}
+
+function imageError(img){
+  img.style.display='none';
+  const note=document.createElement('p');
+  note.className='small-note';
+  note.textContent='Image not found. Check the filename and make sure the image is in the same folder as index.html.';
+  img.insertAdjacentElement('afterend',note);
+}
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')closeGift();
+});
+</script>
+</body>
+</html>
